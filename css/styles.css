@@ -5,6 +5,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+
 :root {
   --primary-text-color: #434455;
   --secondary-text-color: #2e2f42;
@@ -17,7 +18,7 @@ body {
   --footer-text-color: #e7e9fc;
 }
 
-.hidden {
+.visually-hidden {
   position: absolute;
   white-space: nowrap;
   width: 1px;
@@ -51,24 +52,16 @@ body {
   list-style: none;
 }
 
-.menu .nav-link {
+.menu .menu-link {
   color: var(--secondary-text-color);
   font-weight: 500;
 
   text-decoration: none;
 }
 
-.menu .nav-link:hover,
-.menu .nav-link:focus {
+.menu .menu-link:hover,
+.menu .menu-link:focus {
   color: var(--logo-color);
-}
-
-.nav-link.current {
-  color: var(--items-active-color);
-}
-
-.contacts {
-  list-style: none;
 }
 
 .contact-link:hover,
@@ -77,7 +70,7 @@ body {
 }
 
 .contact-link:active,
-.menu .nav-link:active {
+.menu .menu-link:active {
   color: var(--logo-color);
 }
 
@@ -85,6 +78,10 @@ body {
   color: var(--primary-text-color);
   font-style: normal;
   text-decoration: none;
+}
+
+.menu-link.current {
+  color: var(--items-active-color);
 }
 
 .contacts {
@@ -101,7 +98,7 @@ body {
   letter-spacing: 0.02em;
 }
 
-.button-hero {
+.btn-hero {
   background-color: var(--btn-bg-color);
   color: var(--btn-hero-color);
   font-family: 'Roboto';
@@ -114,8 +111,8 @@ body {
   cursor: pointer;
 }
 
-.button-hero:hover,
-.button-hero:focus {
+.btn-hero:hover,
+.btn-hero:focus {
   background-color: var(--btn-hover-color);
 }
 
@@ -160,26 +157,6 @@ body {
   background-color: var(--secondary-text-color);
 }
 
-.portfolio-list {
-  list-style: none;
-}
-
-.card .portfolio-title {
-  color: var(--secondary-text-color);
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-}
-
-.portfolio-item .card {
-  text-decoration: none;
-}
-
-.card .types {
-  color: var(--primary-text-color);
-}
-
 .filter-list {
   list-style: none;
 }
@@ -205,4 +182,24 @@ body {
 .filter-btn.all-ftrs:hover,
 .filter-btn.all-ftrs:focus {
   background-color: var(--btn-bg-color);
+}
+
+.portfolio-list {
+  list-style: none;
+}
+
+.card .portfolio-title {
+  color: var(--secondary-text-color);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.portfolio-item .card {
+  text-decoration: none;
+}
+
+.card .types {
+  color: var(--primary-text-color);
 }
