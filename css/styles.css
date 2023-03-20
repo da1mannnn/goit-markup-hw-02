@@ -5,6 +5,17 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+:root {
+  --primary-text-color: #434455;
+  --secondary-text-color: #2e2f42;
+  --logo-color: #4d5ae5;
+  --items-active-color: #404bbf;
+  --btn-bg-color: #4d5ae5;
+  --btn-hero-color: #ffffff;
+  --btn-hover-color: #404bbf;
+  --team-section-color: #f4f4fd;
+  --footer-text-color: #e7e9fc;
+}
 
 .hidden {
   position: absolute;
@@ -32,7 +43,7 @@ body {
   text-decoration: none;
 }
 
-.logo-web {
+.logo .accent {
   color: var(--logo-color);
 }
 
@@ -74,4 +85,124 @@ body {
   color: var(--primary-text-color);
   font-style: normal;
   text-decoration: none;
+}
+
+.contacts {
+  list-style: none;
+}
+
+.hero .hero-title {
+  color: var(--btn-hero-color);
+  background-color: var(--secondary-text-color);
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+
+.button-hero {
+  background-color: var(--btn-bg-color);
+  color: var(--btn-hero-color);
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  align-items: center;
+  letter-spacing: 0.04em;
+
+  cursor: pointer;
+}
+
+.button-hero:hover,
+.button-hero:focus {
+  background-color: var(--btn-hover-color);
+}
+
+.ad-list {
+  list-style: none;
+}
+
+.item-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.section-title {
+  color: var(--secondary-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+
+.gallery-list {
+  list-style: none;
+}
+
+.team-list {
+  list-style: none;
+}
+
+.team-name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.footer-text {
+  color: var(--footer-text-color);
+  background-color: var(--secondary-text-color);
+}
+
+.portfolio-list {
+  list-style: none;
+}
+
+.card .portfolio-title {
+  color: var(--secondary-text-color);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.portfolio-item .card {
+  text-decoration: none;
+}
+
+.card .types {
+  color: var(--primary-text-color);
+}
+
+.filter-list {
+  list-style: none;
+}
+
+.filter-btn {
+  background-color: var(--team-section-color);
+  color: var(--btn-bg-color);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.04em;
+
+  cursor: pointer;
+}
+
+.filter-btn.all-ftrs {
+  background-color: var(--items-active-color);
+  color: var(--btn-hero-color);
+}
+
+.filter-btn.all-ftrs:hover,
+.filter-btn.all-ftrs:focus {
+  background-color: var(--btn-bg-color);
 }
