@@ -121,6 +121,7 @@ body {
   line-height: 1.1px;
   color: var(--title-text-color);
   text-transform: capitalize;
+  letter-spacing: 0.02em;
 }
 .section-title.item {
   color: var(--title-text-color);
