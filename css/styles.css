@@ -74,6 +74,19 @@ body {
   color: var(--title-blue-color);
 }
 
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
 .hero {
   background-color: var(--bacground-color-heroo-footer);
 }
@@ -108,7 +121,6 @@ body {
   line-height: 1.1px;
   color: var(--title-text-color);
   text-transform: capitalize;
-  overflow: hidden;
 }
 .section-title.item {
   color: var(--title-text-color);
