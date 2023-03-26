@@ -102,9 +102,10 @@ body {
 }
 
 .header-adress {
+  font-style: normal;
 }
-.header-mail,
-.header-tel {
+
+.header-link {
   font-style: normal;
   line-height: 1.5;
   letter-spacing: 0.02em;
