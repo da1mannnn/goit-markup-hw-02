@@ -60,7 +60,7 @@ body {
   border: 0;
   padding: 0;
   white-space: nowrap;
-  clip-path: inset(50%);
+  clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
@@ -87,10 +87,8 @@ body {
 }
 
 .header-list {
-  font-style: normal;
 }
 .header-item {
-  font-style: normal;
 }
 .header-link {
   font-weight: 500;
@@ -104,10 +102,9 @@ body {
 }
 
 .header-adress {
-  font-style: normal;
 }
-
-.header-link {
+.header-mail,
+.header-tel {
   font-style: normal;
   line-height: 1.5;
   letter-spacing: 0.02em;
