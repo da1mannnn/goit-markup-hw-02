@@ -193,6 +193,7 @@ body {
 .team-list {
 }
 .team-item {
+  background-color: #ffffff;
 }
 .team-name {
   color: var(--main-title-color);
