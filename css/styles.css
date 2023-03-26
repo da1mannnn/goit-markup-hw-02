@@ -42,7 +42,14 @@ body {
   line-height: 1.33;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  line-height: 1.17;
+  color: #4d5ae5;
 }
+
+.studio {
+  color: #2e2f42;
+}
+
 .title {
   font-weight: 500;
   font-size: 20px;
