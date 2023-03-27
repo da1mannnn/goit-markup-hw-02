@@ -1,37 +1,150 @@
-body {
-  font-family: "Roboto", sans-serif;
- color: var(--main-title-color);
-}
-
 :root {
   --main-title-color: #2e2f42;
-  --secondary-title-color: #434455;
-  --accent-color: #f4f4f4;
-  --thirdary-title-color: #ffffff;
-  --fourdary-title-color: #e7e9fc; 
-  --back-color-title:  #4d5ae5;
-  --background-color: #404bbf;
-  --secondary-font: 'Raleway', sans-serif;
-
-}
-
-
-.link {
-  list-style: none;
+  --first-color: #ffffff;
+  --accent-color: #4d5ae5;
+  --sekondary-font: Raleway, sans-serif;
+  --focus-color: #404bbf;
+  --contact-color: #434455;
+  --btn-color: #4d5ae5;
+  --second-foot-color: #2e2f42;
+  --third-color: #e7e9fc;
+  --logo-color: #f4f4fd;
+  --hiro-color: #0a0b23;
 }
 .list {
+  list-style: none;
+}
+
+.link {
   text-decoration: none;
 }
 
-.button-title:hover,
-.button-title:focus {
-  background: var(--background-color);
+body {
+  font-family: 'Roboto', sans-serif;
+
+  background-color: var(--first-color);
 }
-.button-link:hover,
-.button-link:focus {
-  color:var(--thirdary-title-color);
-  background: var(--background-color);
+
+.btn {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
 }
+
+.title {
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+
+.description {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.subject {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.logo {
+  font-family: Raleway, sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+address {
+  font-style: normal;
+}
+/* -----------------------------header------------------------------------ */
+.header-logo {
+  color: var(--accent-color);
+}
+
+.header-logo span {
+  color: var(--main-title-color);
+}
+
+.menu-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--main-title-color);
+}
+
+.menu-link:hover,
+.menu-link:focus {
+  color: var(--focus-color);
+}
+
+.meil-link {
+  font-family: 'Roboto';
+  font-style: normal;
+
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--contact-color);
+  cursor: auto;
+}
+
+.meil-link:hover,
+.meil-link:focus {
+  color: var(--focus-color);
+}
+
+.tel {
+  font-family: 'Roboto';
+  font-style: normal;
+
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--contact-color);
+  cursor: auto;
+}
+
+/*---------------------------Effective Solutions for Your Business ----------------------------------------------------------*/
+.hirol-tiatl {
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--first-color);
+}
+
+.hirol {
+  background-color: var(--hiro-color);
+  color: var(--first-color);
+}
+
+.hirol-btn {
+  color: var(--first-color);
+  background-color: var(--btn-color);
+}
+.hirol-btn:hover,
+.hirol-btn:focus {
+  color: var(--first-color);
+  background-color: var(--focus-color);
+}
+
+/* ----------------------------------principes.principes-subject ------------------------------ */
 
 .visually-hidden {
   position: absolute;
@@ -46,178 +159,155 @@ body {
   overflow: hidden;
 }
 
+.principes-description {
+  color: var(--contact-color);
+}
 
-.logo-studio {
-  font-family: var(--secondary-font);
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.33;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
+/* ----------------------------What are we doing------------------------------------------- */
+.doing-title {
   color: var(--main-title-color);
 }
 
-.logo-web {
-  font-family: var(--secondary-font);
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: var(--back-color-title);
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.33;
-}
-.header-navigation {
-}
-.header-head:hover,
-.header-head:focus {
-color: var(--background-color);
- 
-  }
+/* ---------------------------------Our Team -------------------------------------------------*/
 
-.header-head{
-  font-weight: 500;
+.tem-titel {
+  color: var(--main-title-color);
+}
+
+.tem-subject {
+  color: var(--main-title-color);
+}
+
+.tem-description {
+  color: var(--contact-color);
+}
+
+.tem {
+  background-color: var(--logo-color);
+}
+
+/*---------------------------------------------- footer.------------------------------------ */
+.footer-logo {
+  color: var(--btn-color);
+}
+
+.footer-second-logo {
+  color: var(--logo-color);
+}
+
+.footer-description {
+  color: var(--third-color);
+}
+
+.footer {
+  background-color: var(--second-foot-color);
+}
+
+/* -----------------------------------------header portfolio--------------------------------------- */
+
+.header-logo {
+  color: var(--btn-color);
+}
+
+.header-second-logo {
+  color: var(--main-title-color);
+}
+
+.menu-link {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--main-title-color);
 }
 
-.header-link {
+.menu-link:hover,
+.menu-link:focus {
+  color: var(--focus-color);
+}
+
+.meil-link {
   font-style: normal;
-  font-weight: 400;
+
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--secondary-title-color);
-  
+  color: var(--contact-color);
 }
 
-.item {
-  background: var(--main-title-color);
+.meil-link:hover,
+.meil:focus {
+  color: var(--focus-color);
 }
-.item-text {
-  font-size: 56px;
-  line-height: 1.08;
-  letter-spacing: 0.02em;
-  color: var(--thirdary-title-color);
-}
-.item-button-title{
-  font-family: inherit;
-font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-display: flex;
-align-items: center;
-letter-spacing: 0.04em;
-color: var(--thirdary-title-color);
-}
-.button-style{
-  background: #404BBF;
-}
- .button-style:hover{
-  background: #4D5AE5;
-}
-.color {
-  background: var(--background-color);
-}
-.hero {
-}
-.hero-name {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: var(--main-title-color);
-  text-decoration: none;
-}
-.hero-list {
-}
-.hero-item {
-}
-.hero-subtitle {
-  font-weight: 400;
+
+.tel-link {
+  font-style: normal;
+
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--secondary-title-color);
+  color: var(--contact-color);
 }
-.pic {
-  font-size: 36px;
-  line-height: 1.12;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
+
+/* -----------------------------------------------button------------------------------------------------- */
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.navegetion-btn {
+  color: var(--btn-color);
+  background-color: var(--first-color);
+}
+
+.navegetion-btn:hover,
+.navegetion-btn:focus {
+  color: var(--first-color);
+  background-color: var(--focus-color);
+}
+/* ---------------------------------imagis--------------------------------------------------------- */
+.images-title visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.images-subject {
   color: var(--main-title-color);
 }
-.team {
-  font-size: 36px;
-  line-height: 1.12;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  color: var(--main-title-color);
+
+.images-description {
+  color: var(--contact-color);
 }
 
-.team-name {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: var(--main-title-color);
-}
-.team-quote {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--secondary-title-color);
+/* ----------------------------------footer portfolio--------------------------------------------------- */
+.footer-logo {
+  color: var(--btn-color);
 }
 
-footer {
-  background: var(--main-title-color);
+.footer-second-logo {
+  color: var(--logo-color);
 }
 
-.logo-color {
-  font-family: var(--secondary-font);
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;s
-  text-transform: uppercase;
-  color: var(--accent-color);
-}
-.notes {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--fourdary-title-color);
-}
-.button {
-}
-.button-link {
-}
-.btn {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;D
-  letter-spacing: 0.04em;
-  color: var(--back-color-title);
+.footer-description {
+  color: var(--third-color);
 }
 
-.images {
-
+.footer {
+  background-color: var(--main-title-color);
 }
-.text {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: var(--main-title-color);
-}
-.text-title {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--secondary-title-color);
-}
- 
