@@ -103,25 +103,25 @@ body {
 
 .header-adress {
 }
-.header-mail,
-.header-tel {
+.header-mail-tel,
+.header-mail-tel {
   font-style: normal;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: inherit;
 }
 
-.header-mail:hover,
-.header-mail:focus {
+.header-mail-tel:hover,
+.header-mail-tel:focus {
   color: var(--main-accent-color);
 }
 
-.header-tel:hover,
-.header-tel:focus {
+.header-mail-tel:hover,
+.header-mail-tel:focus {
   color: var(--main-accent-color);
 }
 
-.header-tel {
+.header-mail-tel {
 }
 
 .hero {
