@@ -1,313 +1,313 @@
 :root {
-  --main-title-color: #2e2f42;
-  --first-color: #ffffff;
-  --accent-color: #4d5ae5;
-  --sekondary-font: Raleway, sans-serif;
-  --focus-color: #404bbf;
-  --contact-color: #434455;
-  --btn-color: #4d5ae5;
-  --second-foot-color: #2e2f42;
-  --third-color: #e7e9fc;
-  --logo-color: #f4f4fd;
-  --hiro-color: #0a0b23;
+	--main-title-color: #2e2f42;
+	--first-color: #ffffff;
+	--accent-color: #4d5ae5;
+	--sekondary-font: Raleway, sans-serif;
+	--focus-color: #404bbf;
+	--contact-color: #434455;
+	--btn-color: #4d5ae5;
+	--second-foot-color: #2e2f42;
+	--third-color: #e7e9fc;
+	--logo-color: #f4f4fd;
+	--hiro-color: #0a0b23;
 }
 .list {
-  list-style: none;
+	list-style: none;
 }
 
 .link {
-  text-decoration: none;
+	text-decoration: none;
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
-  color: #434455
-  background-color: var(--first-color);
+	font-family: "Roboto", sans-serif;
+	background-color: var(--first-color);
+	color: #434455;
 }
 
 .btn {
-  font-family: 'Roboto', sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  display: flex;
-  align-items: center;
-  letter-spacing: 0.04em;
+	font-family: "Roboto", sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.5;
+	display: flex;
+	align-items: center;
+	letter-spacing: 0.04em;
 }
 
 .title {
-  font-size: 36px;
-  line-height: 1.11;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
+	font-size: 36px;
+	line-height: 1.11;
+	letter-spacing: 0.02em;
+	text-transform: capitalize;
 }
 
 .description {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
 }
 
 .subject {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 1.2;
+	letter-spacing: 0.02em;
 }
 
 .logo {
-  font-family: Raleway, sans-serif;
-  font-style: normal;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.33;
-  display: flex;
-  align-items: center;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
+	font-family: Raleway, sans-serif;
+	font-style: normal;
+	font-weight: 800;
+	font-size: 18px;
+	line-height: 1.33;
+	display: flex;
+	align-items: center;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
 }
 
 address {
-  font-style: normal;
+	font-style: normal;
 }
 /* -----------------------------header------------------------------------ */
 .header-logo {
-  color: var(--accent-color);
+	color: var(--accent-color);
 }
 
 .header-logo span {
-  color: var(--main-title-color);
+	color: var(--main-title-color);
 }
 
 .menu-link {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--main-title-color);
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+	color: var(--main-title-color);
 }
 
 .menu-link:hover,
 .menu-link:focus {
-  color: var(--focus-color);
+	color: var(--focus-color);
 }
 
 .meil-link {
-  font-family: 'Roboto';
-  font-style: normal;
+	font-family: "Roboto";
+	font-style: normal;
 
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--contact-color);
-  cursor: auto;
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+	color: var(--contact-color);
+	cursor: auto;
 }
 
 .meil-link:hover,
 .meil-link:focus {
-  color: var(--focus-color);
+	color: var(--focus-color);
 }
 
 .tel {
-  font-family: 'Roboto';
-  font-style: normal;
+	font-family: "Roboto";
+	font-style: normal;
 
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--contact-color);
-  cursor: auto;
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+	color: var(--contact-color);
+	cursor: auto;
 }
 
 /*---------------------------Effective Solutions for Your Business ----------------------------------------------------------*/
 .hirol-tiatl {
-  font-size: 56px;
-  line-height: 1.07;
-  text-align: center;
-  letter-spacing: 0.02em;
-  color: var(--first-color);
+	font-size: 56px;
+	line-height: 1.07;
+	text-align: center;
+	letter-spacing: 0.02em;
+	color: var(--first-color);
 }
 
 .hirol {
-  background-color: var(--hiro-color);
-  color: var(--first-color);
+	background-color: var(--hiro-color);
+	color: var(--first-color);
 }
 
 .hirol-btn {
-  color: var(--first-color);
-  background-color: var(--btn-color);
+	color: var(--first-color);
+	background-color: var(--btn-color);
 }
 .hirol-btn:hover,
 .hirol-btn:focus {
-  color: var(--first-color);
-  background-color: var(--focus-color);
+	color: var(--first-color);
+	background-color: var(--focus-color);
 }
 
 /* ----------------------------------principes.principes-subject ------------------------------ */
 
 .visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	border: 0;
+	padding: 0;
+	white-space: nowrap;
+	clip-path: inset(100%);
+	clip: rect(0 0 0 0);
+	overflow: hidden;
 }
 
 .principes-description {
-  color: var(--contact-color);
+	color: var(--contact-color);
 }
 
 /* ----------------------------What are we doing------------------------------------------- */
 .doing-title {
-  color: var(--main-title-color);
+	color: var(--main-title-color);
 }
 
 /* ---------------------------------Our Team -------------------------------------------------*/
 
 .tem-titel {
-  color: var(--main-title-color);
+	color: var(--main-title-color);
 }
 
 .tem-subject {
-  color: var(--main-title-color);
+	color: var(--main-title-color);
 }
 
 .tem-description {
-  color: var(--contact-color);
+	color: var(--contact-color);
 }
 
 .tem {
-  background-color: var(--logo-color);
+	background-color: var(--logo-color);
 }
 
 /*---------------------------------------------- footer.------------------------------------ */
 .footer-logo {
-  color: var(--btn-color);
+	color: var(--btn-color);
 }
 
 .footer-second-logo {
-  color: var(--logo-color);
+	color: var(--logo-color);
 }
 
 .footer-description {
-  color: var(--third-color);
+	color: var(--third-color);
 }
 
 .footer {
-  background-color: var(--second-foot-color);
+	background-color: var(--second-foot-color);
 }
 
 /* -----------------------------------------header portfolio--------------------------------------- */
 
 .header-logo {
-  color: var(--btn-color);
+	color: var(--btn-color);
 }
 
 .header-second-logo {
-  color: var(--main-title-color);
+	color: var(--main-title-color);
 }
 
 .menu-link {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--main-title-color);
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+	color: var(--main-title-color);
 }
 
 .menu-link:hover,
 .menu-link:focus {
-  color: var(--focus-color);
+	color: var(--focus-color);
 }
 
 .meil-link {
-  font-style: normal;
+	font-style: normal;
 
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--contact-color);
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+	color: var(--contact-color);
 }
 
 .meil-link:hover,
 .meil:focus {
-  color: var(--focus-color);
+	color: var(--focus-color);
 }
 
 .tel-link {
-  font-style: normal;
+	font-style: normal;
 
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--contact-color);
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+	color: var(--contact-color);
 }
 
 /* -----------------------------------------------button------------------------------------------------- */
 
 .visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	border: 0;
+	padding: 0;
+	white-space: nowrap;
+	clip-path: inset(100%);
+	clip: rect(0 0 0 0);
+	overflow: hidden;
 }
 
 .navegetion-btn {
-  color: var(--btn-color);
-  background-color: var(--first-color);
+	color: var(--btn-color);
+	background-color: var(--first-color);
 }
 
 .navegetion-btn:hover,
 .navegetion-btn:focus {
-  color: var(--first-color);
-  background-color: var(--focus-color);
+	color: var(--first-color);
+	background-color: var(--focus-color);
 }
 /* ---------------------------------imagis--------------------------------------------------------- */
 .images-title visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	border: 0;
+	padding: 0;
+	white-space: nowrap;
+	clip-path: inset(100%);
+	clip: rect(0 0 0 0);
+	overflow: hidden;
 }
 
 .images-subject {
-  color: var(--main-title-color);
+	color: var(--main-title-color);
 }
 
 .images-description {
-  color: var(--contact-color);
+	color: var(--contact-color);
 }
 
 /* ----------------------------------footer portfolio--------------------------------------------------- */
 .footer-logo {
-  color: var(--btn-color);
+	color: var(--btn-color);
 }
 
 .footer-second-logo {
-  color: var(--logo-color);
+	color: var(--logo-color);
 }
 
 .footer-description {
-  color: var(--third-color);
+	color: var(--third-color);
 }
 
 .footer {
-  background-color: var(--main-title-color);
+	background-color: var(--main-title-color);
 }
